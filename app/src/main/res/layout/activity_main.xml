@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#73E9D7"
     android:orientation="vertical"
     android:padding="16dp">
 
@@ -16,8 +17,9 @@
             android:id="@+id/tvWelcome"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textColor="@color/black"
             android:layout_marginTop="160dp"
-            android:textSize="18sp" />
+            android:textSize="40sp" />
 
         <androidx.cardview.widget.CardView
             android:id="@+id/cardView"
@@ -28,15 +30,15 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="100dp"
                 android:orientation="horizontal">
 
                 <ImageView
                     android:id="@+id/imageView"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="wrap_content"
                     android:layout_weight="4"
-                    app:srcCompat="@android:drawable/sym_def_app_icon" />
+                    app:srcCompat="@drawable/user" />
 
                 <TextView
                     android:id="@+id/textView"
@@ -61,7 +63,7 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="100dp"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -69,7 +71,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="4"
-                    app:srcCompat="@android:drawable/sym_def_app_icon" />
+                    app:srcCompat="@drawable/user" />
 
                 <TextView
                     android:id="@+id/textView2"
